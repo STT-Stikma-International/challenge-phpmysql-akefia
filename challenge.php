@@ -98,7 +98,7 @@
 
 // //TODO: UPDATE DATA MAHASISWA
 $sql = "UPDATE mahasiswa"
-SET email='bkonci@gmail.com' WHERE id=6";
+SET nama='update' WHERE id=6";
 // //---
 if ($conn->query($sql) === TRUE) {
     echo "Data berhasil diupdate";
