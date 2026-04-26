@@ -1,10 +1,10 @@
 <?php
-// include 'koneksi.php';
+include 'koneksi.php';
 
-// $nama = $_POST['nama'];
-// $nim = $_POST['nim'];
-// $kelas = $_POST['kelas'];
-// $email = $_POST['email'];
+$nama = $_POST['nama'];
+$nim = $_POST['nim'];
+$kelas = $_POST['kelas'];
+$email = $_POST['email'];
 
 
 // //TODO: insert nama, nim, kelas, email
@@ -97,8 +97,7 @@
 
 
 // //TODO: UPDATE DATA MAHASISWA
-$sql = "UPDATE mahasiswa 
-SET  nama = 'Gwehehheh' WHERE id = 6";
+$sql = "UPDATE mahasiswa SET  nama='Gwehehhesadsah'WHERE id =6";
 // //---
 if ($conn->query($sql) === TRUE) {
     echo "Data berhasil diupdate";
