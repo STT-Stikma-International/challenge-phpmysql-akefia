@@ -97,8 +97,8 @@
 
 
 // //TODO: UPDATE DATA MAHASISWA
-$sql = "UPDATE mahasiswa"
-SET nama='arema' WHERE id=6";
+$sql = "UPDATE mahasiswa 
+SET  nama = 'Gwehehheh' WHERE id = 6";
 // //---
 if ($conn->query($sql) === TRUE) {
     echo "Data berhasil diupdate";
